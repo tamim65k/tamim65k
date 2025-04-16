@@ -1,6 +1,6 @@
 <svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
+		<div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; overflow: hidden;">
 			<style>
 				@keyframes gradientText {
 				  0% {
@@ -51,17 +51,20 @@
           width: 100%;
           height: 100%;
           background: #0D1117;
-          border-radius: 6px;
+          border-radius: 15px;
           padding: 20px;
           display: flex;
           flex-direction: column;
           gap: 10px;
+          box-sizing: border-box;
+          -webkit-mask-image: -webkit-radial-gradient(white, black);
         }
 
         .line {
           display: flex;
           align-items: flex-start;
           overflow: hidden;
+          width: 100%;
         }
 
         .line-wrap {
@@ -142,8 +145,8 @@
           white-space: pre-wrap;
           word-wrap: break-word;
           max-width: calc(100% - 40px);
-          animation: wordByWord 10s steps(12) infinite;
           line-height: 1.5;
+          opacity: 1;
         }
 
         @keyframes typing {
