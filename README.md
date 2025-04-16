@@ -25,25 +25,21 @@ const flutterDev = {
 
 ### 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=tamim65k&show_icons=true&theme=radical)
 
 ### 📌 Pinned Projects
 
 <div align="center">
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=readme-typing-svg&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="readme-typing-svg" />
+<a href="https://github.com/tamim65k/Face-Recognition-Attendance">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tamim65k&repo=Face-Recognition-Attendance&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="Face-Recognition-Attendance" />
 </a>
 
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=github-readme-streak-stats&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="github-readme-streak-stats" />
+<a href="https://github.com/tamim65k/codeforces-solve">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tamim65k&repo=codeforces-solve&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="codeforces-solve" />
 </a>
 
 </div>
-
-### 🔥 Streak Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
 
 ### 📫 Connect with Me
 
