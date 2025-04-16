@@ -61,12 +61,15 @@
         .line {
           display: flex;
           align-items: flex-start;
+          overflow: hidden;
         }
 
         .line-wrap {
           display: flex;
           align-items: flex-start;
           flex-wrap: wrap;
+          overflow: hidden;
+          width: 100%;
         }
 
         .prompt {
@@ -113,20 +116,21 @@
           color: #7EE787;
           font-family: 'Courier New', monospace;
           font-size: 40px;
-          display: inline;
+          display: inline-block;
           overflow: hidden;
           white-space: nowrap;
-          animation: typing 3s steps(30);
+          width: 0;
+          animation: typing 3s steps(30) infinite;
         }
 
         .typed-text-title {
           color: #FFFFFF;
           font-family: 'Courier New', monospace;
-          font-size: 28px;
-          display: inline;
+          font-size: 20px;
+          display: inline-block;
           overflow: hidden;
           white-space: nowrap;
-          animation: typing 3s steps(40) 1s both;
+          animation: wordByWord 8s steps(8) infinite;
         }
 
         .typed-text-desc {
@@ -135,21 +139,33 @@
           font-size: 20px;
           display: inline-block;
           overflow: visible;
-          white-space: normal;
+          white-space: pre-wrap;
           word-wrap: break-word;
           max-width: calc(100% - 40px);
-          animation: fadeIn 2s 2s both;
+          animation: wordByWord 10s steps(12) infinite;
           line-height: 1.5;
         }
 
         @keyframes typing {
-          from { width: 0 }
-          to { width: 100% }
+          0% { width: 0 }
+          100% { width: 100% }
         }
 
-        @keyframes fadeIn {
-          from { opacity: 0 }
-          to { opacity: 1 }
+        @keyframes wordByWord {
+          0%, 100% { 
+            width: 0; 
+            visibility: hidden; 
+          }
+          1% { 
+            visibility: visible; 
+          }
+          10% { width: 15%; }
+          20% { width: 30%; }
+          30% { width: 45%; }
+          40% { width: 60%; }
+          50% { width: 75%; }
+          60% { width: 90%; }
+          70%, 90% { width: 100%; }
         }
 			</style>
       <div class="container">
@@ -169,13 +185,13 @@
           <span class="cursor-small"></span>
         </div>
       </div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❅</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
+      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">🎉</div>
 		</div>
 	</foreignObject>
 </svg> 
