@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ![Mohammad Tamim Hossen](name.svg)
 
 ## Flutter Developer | Mobile App Enthusiast
@@ -79,3 +80,21 @@ I love contributing to open-source projects and helping other developers in the 
 ---
 
 ⭐️ From Mohammad Tamim Hossen
+=======
+## Hi there 👋
+
+<!--
+**tamim65k/tamim65k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> ebc4641a65cea88481bf8c5f04a8460a396c889f
