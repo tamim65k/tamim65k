@@ -1,6 +1,5 @@
 # ![Mohammad Tamim Hossen](name.svg)
 
-
 ### 👨‍💻 A little more about me...
 
 ```dart
@@ -24,17 +23,23 @@ const flutterDev = {
 };
 ```
 
-### 💻 Projects
-
-Here are some of my notable projects:
-
-- [Project 1](link) - Brief description
-- [Project 2](link) - Brief description
-- [Project 3](link) - Brief description
-
 ### 📊 GitHub Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+### 📌 Pinned Projects
+
+<div align="center">
+
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=readme-typing-svg&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="readme-typing-svg" />
+</a>
+
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=github-readme-streak-stats&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="github-readme-streak-stats" />
+</a>
+
+</div>
 
 ### 🔥 Streak Stats
 
@@ -45,15 +50,3 @@ Here are some of my notable projects:
 - LinkedIn: [Your LinkedIn Profile](link)
 - Twitter: [@YourTwitter](link)
 - Email: your.email@example.com
-
-### 🎯 Currently Learning
-
-- Advanced Flutter Animations
-- Clean Architecture
-- Testing in Flutter
-
-### ⚡ Fun Fact
-
-I love contributing to open-source projects and helping other developers in the Flutter community!
-
----
