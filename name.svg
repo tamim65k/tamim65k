@@ -97,7 +97,7 @@
         }
 
         .cursor-small {
-          background: #7EE787;
+          background: #FFFFFF;
           width: 10px;
           height: 24px;
           display: inline-block;
@@ -120,7 +120,7 @@
         }
 
         .typed-text-title {
-          color: #7EE787;
+          color: #FFFFFF;
           font-family: 'Courier New', monospace;
           font-size: 28px;
           display: inline;
@@ -130,7 +130,7 @@
         }
 
         .typed-text-desc {
-          color: #7EE787;
+          color: #FFFFFF;
           font-family: 'Courier New', monospace;
           font-size: 20px;
           display: inline-block;
@@ -160,7 +160,7 @@
         </div>
         <div class="line">
           <span class="prompt-small">$</span>
-          <span class="typed-text-title">Flutter Developer | Mobile App Enthusiast</span>
+          <span class="typed-text-title">Flutter Expert , cross platform app developer</span>
           <span class="cursor-small"></span>
         </div>
         <div class="line-wrap">
