@@ -29,7 +29,7 @@ const flutterDev = {
 
 ### `📌 < Pinned Projects />`
 
-<div align="center">
+<div>
 
 <a href="https://github.com/tamim65k/Face-Recognition-Attendance">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=tamim65k&repo=Face-Recognition-Attendance&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" alt="Face-Recognition-Attendance" />
