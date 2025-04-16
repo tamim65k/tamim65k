@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 # ![Mohammad Tamim Hossen](name.svg)
 
-## Flutter Developer | Mobile App Enthusiast
-
-I'm a passionate Flutter developer dedicated to creating beautiful and performant mobile applications. With a strong focus on clean code and user experience, I build cross-platform solutions that make a difference.
 
 ### 👨‍💻 A little more about me...
 
@@ -27,23 +23,6 @@ const flutterDev = {
     funFact: "I can debug Flutter apps faster with a cup of coffee! ☕"
 };
 ```
-
-### 🚀 Skills & Expertise
-
-- **Languages & Frameworks**
-
-  - Flutter & Dart
-  - Android & iOS Development
-  - Firebase
-  - RESTful APIs
-  - State Management (Provider, Bloc, Riverpod)
-
-- **Tools & Technologies**
-  - Git & GitHub
-  - VS Code
-  - Android Studio
-  - Xcode
-  - CI/CD
 
 ### 💻 Projects
 
@@ -78,23 +57,3 @@ Here are some of my notable projects:
 I love contributing to open-source projects and helping other developers in the Flutter community!
 
 ---
-
-⭐️ From Mohammad Tamim Hossen
-=======
-## Hi there 👋
-
-<!--
-**tamim65k/tamim65k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
->>>>>>> ebc4641a65cea88481bf8c5f04a8460a396c889f

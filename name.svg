@@ -61,6 +61,11 @@
         .line {
           display: flex;
           align-items: flex-start;
+        }
+
+        .line-wrap {
+          display: flex;
+          align-items: flex-start;
           flex-wrap: wrap;
         }
 
@@ -70,6 +75,7 @@
           font-size: 40px;
           display: inline-block;
           margin-right: 10px;
+          flex-shrink: 0;
         }
 
         .prompt-small {
@@ -78,6 +84,7 @@
           font-size: 24px;
           display: inline-block;
           margin-right: 10px;
+          flex-shrink: 0;
         }
 
         .cursor {
@@ -132,6 +139,7 @@
           word-wrap: break-word;
           max-width: calc(100% - 40px);
           animation: fadeIn 2s 2s both;
+          line-height: 1.5;
         }
 
         @keyframes typing {
@@ -155,7 +163,7 @@
           <span class="typed-text-title">Flutter Developer | Mobile App Enthusiast</span>
           <span class="cursor-small"></span>
         </div>
-        <div class="line">
+        <div class="line-wrap">
           <span class="prompt-small">$</span>
           <span class="typed-text-desc">I'm a passionate Flutter developer dedicated to creating beautiful and performant mobile applications.</span>
           <span class="cursor-small"></span>
